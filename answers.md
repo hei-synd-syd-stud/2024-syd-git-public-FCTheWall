@@ -24,6 +24,9 @@
 	- Après les parenthèses se trouve le message du commit, indiquant l'ajout d'un fichier README et l'Initial commit.
 
 ### Task 6
+	Lorsqu'on fait un git checkout <idDuPremierCommit>, on perd le fichier README.md ET les modifications apportées au fichier answers.md.
+	Et quand on revient sur le dernier commit, on voit les modifications revenir.
+	Cela nous permet de revenir assez facilement sur des versions précédentes de notre projet.
 
 ## Gitgraph
 
