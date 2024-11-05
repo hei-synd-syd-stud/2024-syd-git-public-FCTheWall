@@ -30,6 +30,18 @@
 
 ## Gitgraph
 
+	1 : Nom d'une branche, ici "develop".
+	2 : Identifiant du commit, ici le dernier commit.
+	3 : Message du commit pour décrire ce qui a été fait.
+	4 : Identifiant de la personne ayant fait le commit.
+	5 : Version de la branche principale (main).
+	6 : Avancée actuelle de la branche "develop" où "feature-auth" vient de se merge.
+	7 : branche feature-auth qui ajoute une fonctionnalité faite par une autre équipe que "develop", est ensuite merged quand elle est fonctionnelle.
+	8 : Avancée actuelle de la branche "main", où un version de "develop" est mergée et d'où "feature-auth" part pour faire sa tâche.
+	9 : Branche "develop" qui sert de branche de test avant de mettre la version finale de le main par exemple.
+	10 : Branche main qui est la base du projet Git, mais aussi là où se terminera le projet quand tout sera fini.
+	
 ### Task 7
+	
 
 ![Gitgraph](img/gitgraph.svg)
